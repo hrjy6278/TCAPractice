@@ -65,8 +65,8 @@ func dummyRepositoryEffect(decoder: JSONDecoder) -> EffectPublisher<[RepositoryM
     RepositoryModel(
       name: "Repo 1",
       description: "This is the first repo. It has a long descriptive text which spans many lines.",
-      stars: 3,
-      forks: 3,
+      stars: 1,
+      forks: 2,
       language: "Swift"),
     RepositoryModel(
       name: "Repo 2",
